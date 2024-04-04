@@ -45,7 +45,7 @@ const filterPokemon = () => {
         
         const pokemonKeys = Object.values(pokemonArray);
 
-        const filterPokemonName = pokemonKeys.filter((items : Pokemon) => {
+        pokemonKeys.filter((items : Pokemon) => {
     
             if(searchBox?.value === items.name || searchBox?.value === String(items.types)) {
                             
